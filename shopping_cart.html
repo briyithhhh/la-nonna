@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras | La Nonna Ristorante</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/fav2.ico" type="image/x-icon">
+    <link rel="icon" href="images/fav2.ico" type="image/x-icon">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- color stylesheet -->
+    <link rel="stylesheet" href="css/colors.css" id="ui-theme-color">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<div class="loader_wrapper">
+        <div class="loader">
+			<img src="images/loader.gif" alt="" class="img-fluid">
+        </div>
+    </div>
+    <!--// loader_wrapper -->
+
+		<header class="new-block main-header">
+			<div class="main-nav new-block">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+							</div>
+							<div class="location-block">
+								<p>Venezuela</p>
+								<span>+58 (412) 1688466 </span>
+							</div>
+							<a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
+							<nav class="nav">
+								<ul class="list-unstyled">
+									<li class="drop active"><a href="index.html">Inicio</a></li>
+									<li class="drop"><a href="menu.html">Menu</a></li>
+									<li><a href="contact.html">Contáctanos</a></li>
+									<li><a href="about_us.html">Sobre nosotros</a></li>
+									<li><a href="login.html">Iniciar sesion/Registrate</a></li>
+								</ul>
+							</nav>
+							<div class="nav-right-block">
+								<ul class="list-unstyled">
+									<li><a href="#"><i class="flaticon-scooter-front-view"></i><span class="nav-price">$00.00</span></a>
+									</li>
+								</ul>
+							</div><!-- nav-login -->
+						</div>
+					</div>
+				</div>
+			</div>  
+		</header> <!-- header -->
+
+		<section class="page-info new-block">
+			<div class="fixed-bg" style="background: url('images/info-bg.jpg');"></div>
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>La Nonna Carrito</h2>
+				<div class="clear-fix"></div>
+				<ol class="breadcrumb">
+				  <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+				  <li class="breadcrumb-item active"><a href="menu.html">Menu</a></li>
+				</ol>
+			</div>
+		</section><!-- banner -->
+
+
+		<section class="shopping-cart new-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="table-responsive">
+							<table class="table cart-tbl">
+							<thead>
+								<tr>
+									<th class="p_dtl">Detalles del producto</th>
+									<th class="p_btn"></th>
+									<th class="p_price">Precio</th>
+									<th class="p_quantity">Cantidad</th>
+									<th class="p_ttl">Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="p_dtl">
+										<div class="block-stl9">
+											<div class="img-holder">
+												<img src="images/23.png" alt="" class="img-responsive">
+											</div>
+											<div class="info-block">
+												<h5>Burguer de Cerdo</h5>
+												<p class="txt-cat">Regular</p>
+												<p class="ab-txt-block">Burguer rellena de chuletas de cerdo, jamón ahumado, tocineta, queso mozzarella, vegetales y papitas.</p>
+											</div>
+										</div>
+									</td>
+									<td class="p_btn">
+										<a href="#" class="btn1 stl3">Editar</a>
+										<a href="#" class="btn1 stl3">Eliminar</a>
+									</td>
+									<td class="p_price">
+										$15.00
+									</td>
+									<td class="p_quantity">
+										<div class="quantity">
+											<input type="number" class="form-control text-center" value="1" min="0">
+										</div>
+									</td>
+									<td class="p_ttl">
+										$15.00
+									</td>
+								</tr>
+								<tr>
+									<td class="p_dtl">
+										<div class="block-stl9">
+											<div class="img-holder">
+												<img src="images/24.png" alt="" class="img-responsive">
+											</div>
+											<div class="info-block">
+												<h5>Pasta a la carbonara</h5>
+												<p class="ab-txt-block">Pasta a la carbonara con tocineta y pollo.</p>
+											</div>
+										</div>
+									</td>
+									<td class="p_btn">
+										<a href="#" class="btn1 stl3">Editar</a>
+										<a href="#" class="btn1 stl3">Eliminar</a>
+									</td>
+									<td class="p_price">
+										$12.00
+									</td>
+									<td class="p_quantity">
+										<div class="quantity">
+											<input type="number" class="form-control text-center" value="1" min="0">
+										</div>
+									</td>
+									<td class="p_ttl">
+										$12.00
+									</td>
+								</tr>
+								<tr>
+									<td class="p_dtl">
+										<div class="block-stl9">
+											<div class="img-holder">
+												<img src="images/25.png" alt="" class="img-responsive">
+											</div>
+											<div class="info-block">
+												<h5>Srervicio de papas fritas</h5>
+												<p class="txt-cat">Regular</p>
+												<p class="ab-txt-block">Servicio de 350gr de papas fritas extra crunchy acompañada de ketchup y salsa tartara</p>
+											</div>
+										</div>
+									</td>
+									<td class="p_btn">
+										<a href="#" class="btn1 stl3">Editar</a>
+										<a href="#" class="btn1 stl3">Eliminar</a>
+									</td>
+									<td class="p_price">
+										$6.00
+									</td>
+									<td class="p_quantity">
+										<div class="quantity">
+											<input type="number" class="form-control text-center" value="1" min="0">
+										</div>
+									</td>
+									<td class="p_ttl">
+										$6.00
+									</td>
+								</tr>
+								<tr>
+									<td class="p_dtl">
+										<div class="block-stl9">
+											<div class="img-holder">
+												<img src="images/26.png" alt="" class="img-responsive">
+											</div>
+											<div class="info-block">
+												<h5>Limonada</h5>
+												<p class="txt-cat">Regular</p>
+												<p class="ab-txt-block">Limonada fresca.</p>
+											</div>
+										</div>
+									</td>
+									<td class="p_btn">
+										<a href="#" class="btn1 stl3">Editar</a>
+										<a href="#" class="btn1 stl3">Eliminar</a>
+									</td>
+									<td class="p_price">
+										$1.50
+									</td>
+									<td class="p_quantity">
+										<div class="quantity">
+											<input type="number" class="form-control text-center" value="1" min="0">
+										</div>
+									</td>
+									<td class="p_ttl">
+										$1.50
+									</td>
+								</tr>
+								<!-- <tr>
+									<td class="p_dtl">
+										<div class="block-stl9">
+											<div class="img-holder">
+												<img src="images/p-img25.png" alt="" class="img-responsive">
+											</div>
+											<div class="info-block">
+												<h5>Veggie Supreme</h5>
+												<p class="txt-cat">Regular</p>
+												<p class="ab-txt-block">Aenean eget dictum justo Cras sollicitudin scelerisque.</p>
+											</div>
+										</div>
+									</td>
+									<td class="p_btn">
+										<a href="#" class="btn1 stl3">Edit</a>
+										<a href="#" class="btn1 stl3">Remove</a>
+									</td>
+									<td class="p_price">
+										$6.00
+									</td>
+									<td class="p_quantity">
+										<div class="quantity">
+											<input type="number" class="form-control text-center" value="4" min="0">
+										</div>
+									</td>
+									<td class="p_ttl">
+										$28.00
+									</td>
+								</tr> -->
+							</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</section>
+
+		<section class="loc-cop-sum  new-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="block-stl10">
+							<h3>Añada su dirección:</h3>
+							<p>Por favor, coloque sector donde vide, calle y N° de casa</p>
+							<form action="#">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="dirección...">
+								</div>
+								<button class="btn btn5">Aplicar</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="block-stl10">
+							<h3>Cupón de descuento:</h3>
+							<p>Añada el código de algún cupón Nonna, si no posee uno deje este apartado en blanco</p>
+							<form action="#">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="código...">
+								</div>
+								<button class="btn btn5">Aplicar</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-12">
+						<div class="block-stl10 odr-summary">
+							<h3>Resumen de orden :</h3>
+							<ul class="list-unstyled">
+								<li><span class="ttl">Subtotal</span> <span class="stts">$34.50</span></li>
+								<li><span class="ttl">Delivery</span> <span class="stts">Delivery gratis</span></li>
+								<li><span class="ttl">IVA (10%)</span> <span class="stts">$3.45</span></li>
+								<li><span class="ttl">Cupón de descuento</span> <span class="stts"><del>$5</del></span></li>
+							</ul>
+							<div class="ttl-all">
+								<span class="ttlnm">Total</span>
+								<span class="odr-stts">$32.95</span>
+							</div>
+						</div>
+						<a href="compra.html"><button class="btn btn1 stl2">Realizar compra</button> </a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="main-footer new-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<div class="footer-head">
+							<h3>Sobre nosotros:</h3>
+						</div>
+						<div class="footer-content">
+							<p>La Nonna destáca en el mercado por sus inigualable calidad y la increible experiencia que es visitar sus instalaciones.
+							</p>
+							<a href="about_us.html" class="link">Leer más</a>
+							<ul class="list-unstyled card-block">
+								<li><img src="images/crt1.png" alt=""></li>
+								<li><img src="images/crt2.png" alt=""></li>
+								<li><img src="images/crt3.png" alt=""></li>
+								<li><img src="images/crt4.png" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+						<div class="our-company">
+							<div class="footer-head">
+								<h3>Sobre nuestra empresa :</h3>
+							</div>
+							<div class="footer-content">
+								<ul class="list-unstyled">
+									<li><a href="about_us.html">Historia</a></li>
+									<li><a href="about_us.html">Proveedores</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+						<div class="footer-head">
+							<h3>Atención al cliente:</h3>
+						</div>
+						<div class="footer-content">
+							<ul class="list-unstyled">
+								<li><a href="#">+58 414 696-1248</a></li>
+								<li><a href="#">+58 414 631-7864n</a></li>
+								<li><a href="#">+58 424 663-0017</a></li>
+								<li><a href="#">58 412 750-0573</a></li>
+								<li><a href="#">LaNonnaRistorante@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="flickr">
+							<div class="footer-head">
+								<h3>Ubícanos:</h3>
+							</div>
+							<div class="footer-content">
+								<ul class="list-unstyled">
+									<a href="contact.html"><img src="images/ubi.jpg" alt="" class="img-responsive"></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copy-right">
+			<div class="container">
+				<ul class="social-nav">
+					<li><a href="#"><i class="flaticon-facebook-logo"></i></a></li>
+					<li><a href="#"><i class="flaticon-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+        <span id="go_to_top" class="go-to-top"><i class="flaticon-up-arrow"></i></span>
+
+
+	<!-- include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.html"></script>
+    <!-- bootstrap -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- slick slider  -->
+		<script src="js/slick.js"></script>
+    <!-- jquery.nice-select -->
+    <script src="js/jquery.nice-select.js"></script>
+    <!-- magnific-popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Mixitup -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
