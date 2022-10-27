@@ -72,7 +72,7 @@ formulario.addEventListener('submit', (e) => {
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario__grupo-correcto');
 		});
-		window.location.href = "http://localhost:5500/enviar.html";
+		window.location.href = "http://20.168.124.72/enviar.html";
 	} else {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	}
