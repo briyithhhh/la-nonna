@@ -115,7 +115,7 @@
 						</div>
 						<div class="clearfix"></div>
 
-						<form action="" class="formulario" id="formulario">
+						<form action="" name="contact" method="POST" data-netlify="true" class="formulario" id="formulario">
 
 							<div class="formulario__grupo " id="grupo__nombre">
 								<label for="nombre" class="formulario__label">Nombre</label>
@@ -177,6 +177,12 @@
 								<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Mensaje enviado exitosamente!</p>
 							</div>
 						</form>
+	
+
+
+
+
+
 					</div>
 				</div>
 			</div>
@@ -285,6 +291,10 @@
 		<script src="js/validations.js"></script>
 		<!-- Fonts awesome for validations texts -->
 		<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+		<?php
+		include("correo.php");
+
+	?>
 </body>
 
 </html>
