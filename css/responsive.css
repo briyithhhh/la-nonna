@@ -612,7 +612,7 @@
 		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
 		top: 50%;
-		
+	}
 	.main-footer.home2 {
 		padding: 70px 0 70px;
 	}
