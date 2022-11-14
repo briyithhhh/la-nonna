@@ -858,16 +858,16 @@
 	}
 	.main-nav .nav ul {
 		position: absolute;
-		top: 78px;
+		top: 67px;
 		left: 0;
 		width: 100%;
 		height: auto;
-		background: #fff;
-		padding: 10px 0 0;
+		background: rgb(255, 245, 241);
+		padding: 15px 0 0;
 		display: none;
 		z-index: 1;
 		-webkit-box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
-		box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
+		box-shadow: 0 10px 15px 0 rgba(156, 0, 0, 0.986);
 	}
 	.main-nav.home2 .nav ul {
 		top: 0;
@@ -919,10 +919,15 @@
 	.main-nav .nav ul li {
 		width: 100%;
 		float: left;
-		border-bottom: 1px solid #e1e1e1;
+		border-bottom: 1px solid #ffc3c3;
 	}
 	.main-nav .nav ul li a {
-		color: #515151;
+		color: #494949;
+		font-size: 18px;
+		padding: 12px;
+	}
+	.main-nav .nav ul li a :hover {
+		color: #ffffff;
 		font-size: 18px;
 		padding: 12px;
 	}
