@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(255, 244, 233);
+}
+
+
+.container-profile{
+  width: 20%;
+  height: auto;
+  background-color: rgba(236, 154, 47, 0.534);
+  justify-content: center; 
+}
+
+.container-img{
+  /* width: 250px; */
+  height: auto;
+  background-color: #fff!important;
+  margin: 20px;
+}
+/* img-profile{
+  background-color: #fff!important;
+  width: 210px;
+  height: 210px; 
+} */
+
+#image{
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  
+}
