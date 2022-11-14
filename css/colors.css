@@ -12,7 +12,7 @@
 .filter-tabnav input[type="radio"]:checked + .label-text,
 .limited-deal .text-block-stl1 .title .top-h,
 .limited-deal .nav-pills>li>a span,
-.block-stl5 .text-block p.price span,
+/* .block-stl5 .text-block p.price span, */
 .cart-tbl thead th,
 .block-stl12 ul li i,
 .block-stl13 .btn1:hover,
@@ -42,7 +42,14 @@ a.link:hover,
     color: #b60000;   /*Letra transicion de boton*/
 }
 
+.btn1.stl2:hover{
+	background-color: rgba(255, 255, 255, 0);
+	color: #fff;
+}
 
+.block-stl2 .text-block p span{
+	color: #ec0d0d;
+}
 
 .btn2,
 .main-nav,
@@ -127,8 +134,13 @@ a.link:hover,
 .fastive-season .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-next:hover {
-	border-color: #ffffff;
+	border-color: #d10808;
  /*borde botoncito*/}
+
+ .btn1.stl2:hover{
+	border-color: #fff;
+ }
+
 .main-nav.home2 {
 	background: rgba(255, 122, 144, 0.2) ;
 }

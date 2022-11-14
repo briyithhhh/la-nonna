@@ -1,38 +1,8 @@
-/*
-Template Name: Domnoo 
-Version      : 1.0
-*/
-/*===========================
-        CSS INDEX
-=============================
 
-01. Fonts
-02. @import CSS
-03. Reset Stylesheet
-04. CSS3 Animation
-05. Header
-06. Banner
-07. Category
-08. Special Offers
-09. Deal Of The Day
-10. Product Single
-11. Shopping Cart
-12. About us
-13. Blog-Single
-14. Blog
-15. Demo Page
-      
-
-/*==============================================
-01. Fonts
-==============================================*/
 
 @import url('https://fonts.googleapis.com/css?family=Arizonia|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
 
-/*==============================================
-02. @import CSS
-==============================================*/
 
 @import url('flaticon.css');
 @import url('magnific-popup.css');
@@ -48,9 +18,7 @@ Version      : 1.0
 @import url('slick.css');
 @import url('slick-theme.css');
 
-/*==============================================
-03. Reset Stylesheet
-==============================================*/
+
 
 html,
 body,
@@ -157,6 +125,17 @@ blockquote,
 q {
   quotes: none;
 }
+
+#number{
+  color: rgb(255, 240, 240);
+  }
+
+
+#price{
+    color: #000000;
+}
+
+  
 
 blockquote:before,
 blockquote:after,
@@ -1284,6 +1263,13 @@ h1.loader2 {
   text-align: center;
 }
 
+#icon-user{
+  display: flex;
+  width: 34px;
+  height: 34px;
+  
+}
+
 .main-nav .nav-right-block a {
   color: #fff;
 }
@@ -1667,14 +1653,10 @@ a.btn1.stl1.animated {
 
 
 
-/*==============================================
-08. Special Offers
-==============================================*/
-
-
 .special-offers-sec {
-  background: #ff7950;
+  background: #fff8c8;
   padding-bottom: 155px;
+  margin-bottom: 30px;
 }
 
 .special-offers-sec .title {
@@ -2066,10 +2048,9 @@ a.btn1.stl1.animated {
 
 .block-stl3.stl4 .offer-block {
   top: 55px;
-  right: 0;
   max-width: 310px;
   text-align: left;
-  padding: 0 25px 0 0;
+  /* padding: 0 25px 0 0; */
 }
 
 .c-grid2 {
@@ -2264,8 +2245,8 @@ a.btn1.stl1.animated {
   display: inline-block;
   text-align: center;
   border: 2px solid;
-  border-color: #dadada;
-  color: #dadada;
+  border-color: #aaaaaa;
+  color: #808080;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -4003,6 +3984,23 @@ ul.button-group {
 
 .pegination-block .pagination>li>a:hover {
   color: #fff;
+}
+
+#box-1{
+  background-color: rgba(255, 255, 255, 0.521);
+  padding: 25px;
+}
+
+#box-2{
+  background-color: rgba(255, 255, 255, 0.521);
+  padding: 25px;
+  margin-left: 20px;
+}
+
+#box-3{
+  background-color: rgba(255, 255, 255, 0.521);
+  padding: 25px;
+  margin-right: 20px;
 }
 
 .amezing-offers.stl2 {
