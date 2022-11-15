@@ -1,3 +1,7 @@
 # To ignore github
 
 /.github
+
+# To ignore vscode files 
+
+/.vscode
