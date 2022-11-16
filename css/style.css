@@ -5099,7 +5099,13 @@ ul.button-group {
   float: left;
   max-width: 600px;
   padding: 130px 0px 45px 69px;
+
 }
+#accordion-question{
+  background-color: #ffecec;
+}
+
+
 
 .block-stl12 .title h2 {
   font-size: 39px;
@@ -7286,6 +7292,8 @@ body.demo.load .intro-centered .demo-inner-wrapper p {
     background-color: #D95C5C;
   }
 
+  
+
   87% {
     background-color: #5BBD72;
   }
@@ -7332,3 +7340,4 @@ body.demo.load .intro-centered .demo-inner-wrapper p {
     background-color: #F2C61F;
   }
 }
+
