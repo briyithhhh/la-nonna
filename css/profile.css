@@ -28,3 +28,203 @@ body{
   margin-left: 20px;
   
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFF3F3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+    }
+
+    .box{
+        flex: 30%;
+        display: table;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+        background-color: #ffd7b6;
+        color: black;
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+    .info{
+      background-color: #fff;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 100px;
+      border-radius: 20px;
+    }
+     /* .boxx{
+        flex: 30%;
+        display: table;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+        background-color: #FBE5D6;
+        color: black;
+        padding: 20px 20px;
+        border-radius: 20px;
+    } */
+    
+
+    .box img{
+        
+  margin: auto;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .box ul{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .box ul li{
+        list-style: none;
+        margin-top: 40px;
+        font-weight: 50;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .box ul li a{
+        color: black;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .box ul li a:hover{
+        color: #970202;
+    }
+    #name{
+      font-size: 25px;
+    }
+
+    #close{
+      color: #FFFFFF;
+      font-size: 19px;
+      margin: 0;
+      margin-top: 100px;
+    }
+
+    .About{
+        margin-left: 20px;
+        flex: 50%;
+        display: table;
+        padding: 30px 30px;
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .About h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .About ul li{
+        list-style: none;
+    }
+
+    .About ul{
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 1068px) {
+        .container{
+            display: table;
+        }
+
+        .box{
+            width: 100%;
+        }
+
+        .About{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .About h1{
+            text-align: center;
+        }
+    }
+
+    .About h2{
+      font-size: 35px;
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    
+    .button-2 {
+      background: #970202;
+      border: 1px solid #FFFFFF;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 16px;
+      min-height: 40px;
+      outline: 0;
+      padding: 12px 14px;
+      text-align: center;
+      text-rendering: geometricprecision;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+    }
+    
+    .button-2:hover,
+    .button-2:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #970202;
+      border: 1px solid #970202;
+    }
+    
+    .button-2:active {
+      opacity: .5;
+    }
+ul.border {
+        list-style-type: none;
+        padding: 20px;
+        border: 1px solid #ddd;
+         border: 5px solid #FBE5D6;
+      }
+      
+ ul.border li{
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+      }
+      
+ ul.border li:last-child {
+        border-bottom: none
+      }
