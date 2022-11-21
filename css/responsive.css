@@ -343,7 +343,7 @@
 		padding: 0 0 0 0;
 	}
 	.block-stl2 .text-block h3 {
-		margin-top: 5px;
+		margin-top: 35px;
 	}
 	.slider1 .slider-block {
 	    padding: 50px 0 75px 0;
@@ -948,6 +948,7 @@
 	} 
 	.block-stl2 .text-block h3 {
 		font-size: 16px;
+		padding-top: 20px;
 	}
 	.block-stl2 .text-block p.sz {
 		font-size: 16px;
