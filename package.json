@@ -1,0 +1,22 @@
+{
+  "name": "la-nonna",
+  "version": "1.0.0",
+  "description": "pruebas",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briyithhhh/la-nonna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briyithhhh/la-nonna/issues"
+  },
+  "homepage": "https://github.com/briyithhhh/la-nonna#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
