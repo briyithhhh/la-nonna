@@ -202,7 +202,7 @@
 	}
 	.main-nav:before {
 		width: calc(100% - 130px);
-		width: -webkit-calc(100% - 130px);
+		width: -webkit-calc(100% - 70px);
 		width: -moz-calc(100% - 130px);
 	}
 	.main-nav .nav-right-block {
