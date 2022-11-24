@@ -66,7 +66,7 @@ class API {
   managequantitys(cantidad, item, ammount) {
     let casilla = [];
     for (let index = 0; index < ammount; index++) {
-      casilla.push(cantidad, item);
+      casilla.push(item, cantidad);
     }
     console.log(casilla);
     return(casilla)
