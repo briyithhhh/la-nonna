@@ -2536,6 +2536,10 @@ pre code {
     float: left
   }
 
+  #compra{
+    display:flex;
+  }
+
   .col-md-12 {
     width: 100%
   }
