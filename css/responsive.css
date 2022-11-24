@@ -202,14 +202,14 @@
 	}
 	.main-nav:before {
 		width: calc(100% - 130px);
-		width: -webkit-calc(100% - 70px);
+		width: -webkit-calc(100% - 120px);
 		width: -moz-calc(100% - 130px);
 	}
 	.main-nav .nav-right-block {
 	    width: auto;
 	    float: right;
 	    display: inline-block;
-	    padding: 40px 15px 42px;
+	    padding: 40px 40px 42px;
 	}
 	.main-nav .logo {
 		width: 11.2%;
