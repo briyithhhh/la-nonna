@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/colors.css" id="ui-theme-color">
     <!-- responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
+	<!-- API axios via CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
 	<div class="loader_wrapper">
@@ -49,10 +51,10 @@
 							</nav>
 							<div class="nav-right-block">
 								<ul class="list-unstyled">
-									<li class="drop active"><a href="profile.html"><img src="./images/perfil.png" width="70" height="54"></a>
+									<li class="drop active"><a href="#"><i class="flaticon-profile"></i><span class="nav-price">$00.00</span></a>
 									</li>
 								</ul>
-							</div>
+							</div><!-- nav-login -->
 						</div>
 					</div>
 				</div>
@@ -117,93 +119,7 @@
 									<td class="p_ttl">
 										$15.00
 									</td>
-								</tr>
-								<tr>
-									<td class="p_dtl">
-										<div class="block-stl9">
-											<div class="img-holder">
-												<img src="images/24.png" alt="" class="img-responsive">
-											</div>
-											<div class="info-block">
-												<h5>Pasta a la carbonara</h5>
-												<p class="ab-txt-block">Pasta a la carbonara con tocineta y pollo.</p>
-											</div>
-										</div>
-									</td>
-									<td class="p_btn">
-										<a href="#" class="btn1 stl3">Editar</a>
-										<a href="#" class="btn1 stl3">Eliminar</a>
-									</td>
-									<td class="p_price">
-										$12.00
-									</td>
-									<td class="p_quantity">
-										<div class="quantity">
-											<input type="number" class="form-control text-center" value="1" min="0">
-										</div>
-									</td>
-									<td class="p_ttl">
-										$12.00
-									</td>
-								</tr>
-								<tr>
-									<td class="p_dtl">
-										<div class="block-stl9">
-											<div class="img-holder">
-												<img src="images/25.png" alt="" class="img-responsive">
-											</div>
-											<div class="info-block">
-												<h5>Srervicio de papas fritas</h5>
-												<p class="txt-cat">Regular</p>
-												<p class="ab-txt-block">Servicio de 350gr de papas fritas extra crunchy acompañada de ketchup y salsa tartara</p>
-											</div>
-										</div>
-									</td>
-									<td class="p_btn">
-										<a href="#" class="btn1 stl3">Editar</a>
-										<a href="#" class="btn1 stl3">Eliminar</a>
-									</td>
-									<td class="p_price">
-										$6.00
-									</td>
-									<td class="p_quantity">
-										<div class="quantity">
-											<input type="number" class="form-control text-center" value="1" min="0">
-										</div>
-									</td>
-									<td class="p_ttl">
-										$6.00
-									</td>
-								</tr>
-								<tr>
-									<td class="p_dtl">
-										<div class="block-stl9">
-											<div class="img-holder">
-												<img src="images/26.png" alt="" class="img-responsive">
-											</div>
-											<div class="info-block">
-												<h5>Limonada</h5>
-												<p class="txt-cat">Regular</p>
-												<p class="ab-txt-block">Limonada fresca.</p>
-											</div>
-										</div>
-									</td>
-									<td class="p_btn">
-										<a href="#" class="btn1 stl3">Editar</a>
-										<a href="#" class="btn1 stl3">Eliminar</a>
-									</td>
-									<td class="p_price">
-										$1.50
-									</td>
-									<td class="p_quantity">
-										<div class="quantity">
-											<input type="number" class="form-control text-center" value="1" min="0">
-										</div>
-									</td>
-									<td class="p_ttl">
-										$1.50
-									</td>
-								</tr>
+								</tr>								
 								<!-- <tr>
 									<td class="p_dtl">
 										<div class="block-stl9">
@@ -283,12 +199,12 @@
 								<span class="odr-stts">$32.95</span>
 							</div>
 						</div>
-						<a href="compra.html"><button class="btn btn1 stl2">Realizar compra</button> </a>
+						<!--<a href="compra.html"><button class="btn btn1 stl2">Realizar compra</button> </a>-->
+						<button class="btn btn1 stl2" >Realizar Comprar</button>
 					</div>
 				</div>
 			</div>
 		</section>
-
 		<footer class="main-footer new-block">
 			<div class="container">
 				<div class="row">
@@ -359,8 +275,7 @@
 			</div>
 		</div>
         <span id="go_to_top" class="go-to-top"><i class="flaticon-up-arrow"></i></span>
-
-
+    
 	<!-- include jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- bootstrap -->
@@ -377,6 +292,12 @@
     <script src="js/mixitup.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+	<!-- API js -->
+	<script src="js/api.js" ></script>
+	<!--Pruebas-->
+	<script>
+		const api = new API()
+	</script> 
 </body>
 
 </html>
