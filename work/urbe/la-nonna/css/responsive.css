@@ -202,14 +202,14 @@
 	}
 	.main-nav:before {
 		width: calc(100% - 130px);
-		width: -webkit-calc(100% - 130px);
+		width: -webkit-calc(100% - 120px);
 		width: -moz-calc(100% - 130px);
 	}
 	.main-nav .nav-right-block {
 	    width: auto;
 	    float: right;
 	    display: inline-block;
-	    padding: 40px 15px 42px;
+	    padding: 37px 40px 25px;
 	}
 	.main-nav .logo {
 		width: 11.2%;
@@ -343,7 +343,7 @@
 		padding: 0 0 0 0;
 	}
 	.block-stl2 .text-block h3 {
-		margin-top: 5px;
+		margin-top: 35px;
 	}
 	.slider1 .slider-block {
 	    padding: 50px 0 75px 0;
@@ -612,7 +612,7 @@
 		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
 		top: 50%;
-		
+	}
 	.main-footer.home2 {
 		padding: 70px 0 70px;
 	}
@@ -858,16 +858,16 @@
 	}
 	.main-nav .nav ul {
 		position: absolute;
-		top: 78px;
+		top: 67px;
 		left: 0;
 		width: 100%;
 		height: auto;
-		background: #fff;
-		padding: 10px 0 0;
+		background: rgb(255, 245, 241);
+		padding: 15px 0 0;
 		display: none;
 		z-index: 1;
 		-webkit-box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
-		box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
+		box-shadow: 0 10px 15px 0 rgba(156, 0, 0, 0.986);
 	}
 	.main-nav.home2 .nav ul {
 		top: 0;
@@ -919,10 +919,15 @@
 	.main-nav .nav ul li {
 		width: 100%;
 		float: left;
-		border-bottom: 1px solid #e1e1e1;
+		border-bottom: 1px solid #ffc3c3;
 	}
 	.main-nav .nav ul li a {
-		color: #515151;
+		color: #494949;
+		font-size: 18px;
+		padding: 12px;
+	}
+	.main-nav .nav ul li a :hover {
+		color: #ffffff;
 		font-size: 18px;
 		padding: 12px;
 	}
@@ -943,6 +948,7 @@
 	} 
 	.block-stl2 .text-block h3 {
 		font-size: 16px;
+		padding-top: 20px;
 	}
 	.block-stl2 .text-block p.sz {
 		font-size: 16px;

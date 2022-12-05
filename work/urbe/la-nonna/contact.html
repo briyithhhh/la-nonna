@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/colors.css" id="ui-theme-color">
     <!-- responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
+		<!-- validations css -->
+		<link rel="stylesheet" href="css/validations.css">
 </head>
 <body>
 	<div class="loader_wrapper">
@@ -40,16 +42,16 @@
 							<a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
 							<nav class="nav">
 								<ul class="list-unstyled">
-									<li class="drop active"><a href="index.html">Inicio</a></li>
+									<li class="drop"><a href="index.html">Inicio</a></li>
 									<li class="drop"><a href="menu.html">Menu</a></li>
-									<li><a href="contact.html">Contáctanos</a></li>
+									<li class="drop active"><a href="contact.html">Contáctanos</a></li>
 									<li><a href="about_us.html">Sobre nosotros</a></li>
-									<li><a href="login.html">Iniciar sesion/Registrate</a></li>
+									<li><a href="https://admin.lanonna.online">Iniciar sesion/Registrate</a></li>
 								</ul>
 							</nav>
 							<div class="nav-right-block">
 								<ul class="list-unstyled">
-									<li><a href="shopping_cart.html"><i class="flaticon-scooter-front-view"></i><span class="nav-price">$00.00</span></a>
+									<li><a href="profile.html"><img src="./images/perfil.png" width="70" height="54"></a>
 									</li>
 								</ul>
 							</div><!-- nav-login -->
@@ -112,34 +114,79 @@
 							</div>
 						</div>
 						<div class="clearfix"></div>
-						<form action="#">
-							<div class="col-lg-6 col-md-6">
-								<div class="form-group">
-									<input type="text" placeholder="Nombre" class="form-control">
-								</div>	
+						<!-- formulario  🤙🏿🤙🏿-->
+
+
+
+
+
+
+
+
+						<form action="" name="contact" method="POST" data-netlify="true" class="formulario" id="formulario">
+
+							<div class="formulario__grupo " id="grupo__nombre">
+								<label for="nombre" class="formulario__label">Nombre</label>
+								<div class="formulario__grupo-input">
+									<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+									<i class="formulario__validacion-estado fas fa-times-circle"></i>
+								</div>
+								<p class="formulario__input-error">El nombre tiene que ser de 1 a 40 dígitos y solo puede contener letras.</p>
 							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="form-group">
-									<input type="text" placeholder="Apellido" class="form-control">
+
+							
+							<div class="formulario__grupo" id="grupo__apellido">
+								<label for="apellido" class="formulario__label">Apellido</label>
+								<div class="formulario__grupo-input">
+									<input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Apellido">
+									<i class="formulario__validacion-estado fas fa-times-circle"></i>
+								</div>
+								<p class="formulario__input-error">El apellido tiene que ser de 1 a 40 dígitos y solo puede contener letras.</p>
+							</div>
+				
+							
+							<div class="formulario__grupo" id="grupo__correo">
+								<label for="correo" class="formulario__label">Correo Electrónico</label>
+								<div class="formulario__grupo-input">
+									<input type="email" class="formulario__input" name="correo" id="correo" placeholder="Ingresa tu correo electrónico">
+									<i class="formulario__validacion-estado fas fa-times-circle"></i>
+								</div>
+								<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+							</div>
+				
+							<div class="formulario__grupo" id="grupo__telefono">
+								<label for="telefono" class="formulario__label">Teléfono</label>
+								<div class="formulario__grupo-input">
+									<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="Numero de telefono">
+									<i class="formulario__validacion-estado fas fa-times-circle"></i>
+								</div>
+								<p class="formulario__input-error">El número de teléfono solo puede contener números y 14 dígitos.</p>
+							</div>
+							
+							<div class="formulario__grupo" id="grupo__mensaje" >
+								<label for="mensaje" class="formulario__label">Mensaje</label>
+								<div class="formulario__grupo-input">
+									<textarea class="form-control" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+									<i class="formulario__validacion-estado fas fa-times-circle"></i>
+									<p class="formulario__input-error">Por favor, rellena el campo</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="form-group">
-									<input type="text" placeholder="Número de contacto" class="form-control">
-								</div>
+							<br>
+							<div class="formulario__grupo" id="grupo__terminos">
+								<label class="formulario__label">
+									<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+									Acepto los Terminos y Condiciones
+								</label>
 							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="form-group">
-									<input type="text" placeholder="E-mail" class="form-control">
-								</div>
+				
+							<div class="formulario__mensaje" id="formulario__mensaje">
+								<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
 							</div>
-							<div class="col-lg-12 col-md-12">
-								<div class="form-group">
-									<textarea class="form-control" placeholder="Escribe tu mensaje"></textarea>
-								</div>
-							</div>
-							<div class="col-lg-12 col-md-12 text-center">
-							<a href="enviar.html"><input type="button" class="btn btn3" value="Enviar"> </a>
+				
+							<div class="formulario__grupo formulario__grupo-btn-enviar">
+								<button id="btn" href="enviar.html" type="submit" class="btn btn3">Enviar</button>
+								
+								<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
 							</div>
 						</form>
 					</div>
@@ -226,14 +273,15 @@
 
 
 
-	<!-- include jQuery -->
+
+    <!-- include jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="js/bootstrap.min.html"></script>
     <!-- bootstrap -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- slick slider  -->
-	<script src="js/slick.js"></script>
+    <script src="js/slick.js"></script>
     <!-- jquery.nice-select -->
     <script src="js/jquery.nice-select.js"></script>
     <!-- magnific-popup -->
@@ -242,9 +290,13 @@
     <script src="js/mixitup.min.js"></script>
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP1lPhUhDU6MINpruPDinAzXffRlpzzFo"></script>
-	<script src="js/map.js"></script>
-    <!-- custom js -->
+    <script src="js/map.js"></script>
+    <!-- Custom js -->
     <script src="js/custom.js"></script>
+    <!-- Form validations -->
+    <script src="js/validations.js"></script>
+    <!-- Fonts awesome for validations texts -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
